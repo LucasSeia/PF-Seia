@@ -5,15 +5,18 @@
   padding: 0; }
 
 body {
-  font-family: 'Libre Baskerville', serif; }
+  font-family: "Libre Baskerville", serif; }
 
-.navbar-brand img {
+header img {
   width: 70px;
   height: 70px;
   animation-name: logo;
   animation-duration: 4s;
   animation-iteration-count: initial;
   animation-direction: normal; }
+  header img:hover {
+    transform: scale(1.1, 1.1);
+    transition: 1s; }
 
 @keyframes logo {
   0% {
@@ -21,67 +24,39 @@ body {
   100% {
     transform: scale(1, 1); } }
 
-.navbar-brand img:hover {
-  transform: scale(1.1, 1.1);
-  transition: 1s; }
+header .fondo {
+  background-color: color #c70101 !important; }
 
-.fondo {
-  background-color: #c70101 !important; }
-
-.nav-link {
+header ul .nav-link {
   font-size: 1.3rem;
-  color: white; }
+  color: color #fff; }
 
-.show img {
+header .show img {
   width: 100%;
   height: 15rem; }
 
-h1 {
-  background-color: #c70101;
-  color: #f2f2f2;
+footer {
+  background: color #2a2a2a;
+  width: 100%;
+  height: 140px;
+  margin-top: auto;
+  text-align: center; }
+  footer img {
+    width: 40px;
+    height: 40px; }
+  footer a {
+    color: transparent; }
+
+.main h1 {
+  background-color: color #c70101;
+  color: color #fff;
   text-align: center;
-  /* margin: auto;
-    float: left;
-    position: relative; */
   font-size: 2rem;
   margin: 10px 0;
-  padding: 5px 0;
-  /* font-family: monospace; */ }
-
-/* .typewriter h1 span {
-    position: absolute;
-    right: 0;
-    width: 0;
-    background: #c70101;
-    border-left: 1px solid #000;
-
-    animation-name: maquina;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-play-state: 7;
-}
-
-@keyframes maquina {
-    from {
-        width: 100%;
-    }
-    to {
-        width: 0;
-    }
-} */
-.w-100 {
-  margin-bottom: 20px;
-  margin-top: 10px;
-  /* padding-left: 50px;
-    padding-right: 50px; */
-  padding: 30px; }
-
-.carousel-indicators {
-  margin-bottom: 3rem; }
+  padding: 5px 0; }
 
 .main p {
-  color: black;
+  color: color #000;
   font-size: 1rem;
   text-align: center;
   padding: 10px;
@@ -89,124 +64,98 @@ h1 {
   margin-right: 40px;
   margin-top: 45px;
   border: #000 5px ridge;
-  font-family: 'Manrope', sans-serif; }
+  font-family: "Manrope", sans-serif; }
 
-footer {
-  background: #2a2a2a;
-  width: 100%;
-  height: 140px;
-  margin-top: auto;
-  text-align: center; }
+.main .w-100 {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 30px; }
 
-footer img {
-  width: 40px;
-  height: 40px; }
-
-footer a {
-  color: transparent; }
+.main .carousel-indicators {
+  margin-bottom: 3rem; }
 
 /* ----------------- FIXTURE -------------------- */
-#fixture-lucas {
-  background-color: #A7E8BD;
+#fixture {
+  background-color: color #A7E88D;
   padding-bottom: 60px; }
-
-.table-fixture {
-  width: 50%;
-  /* height: fit-content; */
-  margin: 0 auto;
-  border-collapse: collapse;
-  margin-top: 40px; }
-
-.table-fixture th, td {
-  padding: 6px 0;
-  border: 2px solid #000000; }
-
-.table-fixture tr {
-  display: table-row;
-  vertical-align: inherit;
-  border-color: inherit; }
-
-.truco {
-  background-color: #FFD972;
-  color: #000;
-  text-align: center;
-  /* border-collapse: collapse;
-    display: table-cell;
-    vertical-align: inherit; */
-  font-size: 1rem;
-  font-weight: 700; }
-
-.game-time {
-  width: 60px;
-  background: #00BD9D;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 700;
-  text-shadow: 1px 1px 1px #000;
-  text-align: center; }
-
-.game-t1 {
-  width: 150px;
-  background: #e5e5e5;
-  overflow: hidden;
-  text-align: center;
-  line-height: 1.1em;
-  font-weight: 700; }
-
-.game-t1 img {
-  width: 25px;
-  padding-top: 10px; }
-
-.game-r1 {
-  width: 25px;
-  background: #fff;
-  font-size: 1.3rem;
-  font-weight: 400;
-  text-align: center; }
-
-.rojas1 {
-  width: 25px; }
-
-.liga {
-  width: 25px;
-  background: #4a66ff;
-  color: #fff;
-  font-size: 1.1em;
-  font-weight: 700;
-  text-shadow: 1px 1px 1px #000;
-  text-align: center;
-  overflow: hidden; }
-
-.fa-cup {
-  width: 25px;
-  background: #FB3640;
-  color: #fff;
-  font-size: 1.1em;
-  font-weight: 700;
-  text-shadow: 1px 1px 1px #000;
-  text-align: center;
-  overflow: hidden; }
-
-.europa-league {
-  width: 25px;
-  background: #ff6900;
-  color: #fff;
-  font-size: 1.1em;
-  font-weight: 700;
-  text-shadow: 1px 1px 1px #000;
-  text-align: center;
-  overflow: hidden; }
-
-.envido {
-  width: 25px;
-  background-color: #EF233C;
-  color: #fff;
-  text-align: center;
-  /* border-collapse: collapse;
-    display: table-cell;
-    vertical-align: inherit; */
-  font-size: 1.1rem;
-  font-weight: 700; }
+  #fixture .table-fixture {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 40px; }
+    #fixture .table-fixture th, #fixture .table-fixture td {
+      padding: 6px 0;
+      border: #000 2px solid; }
+    #fixture .table-fixture tr {
+      display: table-row;
+      vertical-align: inherit;
+      border-color: inherit; }
+    #fixture .table-fixture .truco {
+      background-color: color #FFD972;
+      color: color #000;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 700; }
+    #fixture .table-fixture .game-time {
+      width: 60px;
+      background: color #00bd9d;
+      color: color #fff;
+      font-size: 1rem;
+      font-weight: 700;
+      text-shadow: 1px 1px 1px #000;
+      text-align: center; }
+    #fixture .table-fixture .game-t1 {
+      width: 150px;
+      background: color #e5e5e5;
+      overflow: hidden;
+      text-align: center;
+      line-height: 1.1em;
+      font-weight: 700; }
+    #fixture .table-fixture .game-t1 img {
+      width: 25px;
+      padding-top: 10px; }
+    #fixture .table-fixture .game-r1 {
+      width: 25px;
+      background: color #fff;
+      font-size: 1.3rem;
+      font-weight: 400;
+      text-align: center; }
+    #fixture .table-fixture .rojas1 {
+      width: 25px; }
+    #fixture .table-fixture .liga {
+      width: 25px;
+      background: color #4a66ff;
+      color: color #fff;
+      font-size: 1.1em;
+      font-weight: 700;
+      text-shadow: 1px 1px 1px #000;
+      text-align: center;
+      overflow: hidden; }
+    #fixture .table-fixture .fa-cup {
+      width: 25px;
+      background: color #fb3640;
+      color: color #fff;
+      font-size: 1.1em;
+      font-weight: 700;
+      text-shadow: 1px 1px 1px #000;
+      text-align: center;
+      overflow: hidden; }
+    #fixture .table-fixture .europa-league {
+      width: 25px;
+      background: color #ff6900;
+      color: color #fff;
+      font-size: 1.1em;
+      font-weight: 700;
+      text-shadow: 1px 1px 1px #000;
+      text-align: center;
+      overflow: hidden; }
+    #fixture .table-fixture .envido {
+      width: 25px;
+      background-color: color #ff0033;
+      color: color #fff;
+      text-align: center;
+      font-size: 1.1rem;
+      font-weight: 700; }
 
 /* ----------------- TABLA DE POSICIONES -------------------- */
 #premier-league {

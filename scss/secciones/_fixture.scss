@@ -1,0 +1,96 @@
+/* ----------------- FIXTURE -------------------- */
+#fixture {
+    background-color: $fixture;
+    padding-bottom: 60px;
+    .table-fixture {
+        width: 50%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        margin-top: 40px;
+        th, td {
+            padding: 6px 0;
+            border: $border2;
+        }
+        tr {
+            display: table-row;
+            vertical-align: inherit;
+            border-color: inherit;
+        }
+        .truco {
+            background-color: $marzo;
+            color: $negro;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+        .game-time {
+            width: 60px;
+            background: $horario;
+            color: $blanco;
+            font-size: 1rem;
+            font-weight: 700;
+            text-shadow: $text-shadow;
+            text-align: center;
+        }
+        .game-t1 {
+            width: 150px;
+            background: $gris-claro;
+            overflow: hidden;
+            text-align: center;
+            line-height: 1.1em;
+            font-weight: 700;
+        }
+        .game-t1 img {
+            width: 25px;
+            padding-top: 10px;
+        }
+        .game-r1 {
+            width: 25px;
+            background: $blanco;
+            font-size: 1.3rem;
+            font-weight: 400;
+            text-align: center;
+        }
+        .rojas1 {
+            width: 25px;
+        }
+        .liga {
+            width: 25px;
+            background: $liga;
+            color: $blanco;
+            font-size: 1.1em;
+            font-weight: 700;
+            text-shadow: $text-shadow;
+            text-align: center;
+            overflow: hidden;
+        }
+        .fa-cup {
+            width: 25px;
+            background: $facup;
+            color: $blanco;
+            font-size: 1.1em;
+            font-weight: 700;
+            text-shadow: $text-shadow;
+            text-align: center;
+            overflow: hidden;
+        }
+        .europa-league {
+            width: 25px;
+            background: $europa-league;
+            color: $blanco;
+            font-size: 1.1em;
+            font-weight: 700;
+            text-shadow: $text-shadow;
+            text-align: center;
+            overflow: hidden;
+        }
+        .envido {
+            width: 25px;
+            background-color: $descenso;
+            color: $blanco;
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+    }
+}
