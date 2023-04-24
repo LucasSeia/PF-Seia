@@ -2,8 +2,16 @@
 #fixture {
     background-color: $fixture;
     padding-bottom: 60px;
+    h1 {
+        background-color: $rojo;
+        color: $blanco;
+        text-align: center;
+        font-size: 1.8rem;
+        margin: 10px 0;
+        padding: 5px 0;
+    }
     .table-fixture {
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
         border-collapse: collapse;
         margin-top: 40px;
@@ -39,17 +47,22 @@
             text-align: center;
             line-height: 1.1em;
             font-weight: 700;
-        }
-        .game-t1 img {
-            width: 25px;
-            padding-top: 10px;
+            img {
+                width: 25px;
+                padding-top: 10px;
+            }
         }
         .game-r1 {
             width: 25px;
             background: $blanco;
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             font-weight: 400;
             text-align: center;
+            span {
+                .gano {
+                    color: $gano;
+                }
+            }
         }
         .rojas1 {
             width: 25px;
@@ -58,7 +71,7 @@
             width: 25px;
             background: $liga;
             color: $blanco;
-            font-size: 1.1em;
+            font-size: 1rem;
             font-weight: 700;
             text-shadow: $text-shadow;
             text-align: center;
@@ -68,7 +81,7 @@
             width: 25px;
             background: $facup;
             color: $blanco;
-            font-size: 1.1em;
+            font-size: 1rem;
             font-weight: 700;
             text-shadow: $text-shadow;
             text-align: center;
@@ -78,7 +91,7 @@
             width: 25px;
             background: $europa-league;
             color: $blanco;
-            font-size: 1.1em;
+            font-size: 1rem;
             font-weight: 700;
             text-shadow: $text-shadow;
             text-align: center;
@@ -86,10 +99,10 @@
         }
         .envido {
             width: 25px;
-            background-color: $descenso;
+            background-color: $abril;
             color: $blanco;
             text-align: center;
-            font-size: 1.1rem;
+            font-size: 1rem;
             font-weight: 700;
         }
     }

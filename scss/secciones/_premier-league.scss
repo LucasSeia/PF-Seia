@@ -1,0 +1,126 @@
+/* ----------------- TABLA DE POSICIONES -------------------- */
+#premier-league {
+    background-image: $premier;
+    padding-bottom: 50px;
+    h1 {
+        background-color: $rojo;
+        color: $blanco;
+        text-align: center;
+        font-size: 1.8rem;
+        margin: 10px 0 40px 0;
+        padding: 5px 0;
+    }
+    table {
+        font-size: 0.9rem;
+        width: 50%;
+        border-collapse: collapse;
+        margin: 0 auto;
+        th, td {
+            padding: 6px 0;
+            border: $border2;
+        }
+        th {
+            background-image: $fila1;
+            color: $blanco;
+            display: table-cell;
+            vertical-align: inherit;
+            font-weight: bold;
+            text-align: center;
+        }
+        tr {
+            display: table-row;
+            vertical-align: inherit;
+            border-color: inherit;
+            .club {
+                width: 150px;
+            }
+            .estadisticas {
+                width: 35px;
+            }
+            .clasificado {
+                background-color: $champions-league;
+                color: $blanco;
+                text-align: center;
+            }
+            .uel {
+                background-color: $europa-league;
+                color: $blanco;
+                text-align: center;
+            }
+            .conference {
+                background-color: $conference-league;
+                color: $blanco;
+                text-align: center;
+            }
+            .descenso {
+                background-color: $descenso;
+                color: $blanco;
+                text-align: center;
+            }
+        }
+        .gris-claro {
+            background-color: $gris-claro;
+            td {
+                text-align: center;
+            }
+            .left {
+                text-align: left;
+                .shield {
+                    width: 25px;
+                    height: 25px;
+                    padding-bottom: 5px;
+                    padding-left: 5px;
+                }
+                b {
+                    font-size: 0.9rem;
+                }
+            }
+            .centrado {
+                text-align: center;
+                font-weight: bold;
+            }
+        }
+        .gris-oscuro {
+            background-color: $gris-oscuro;
+            td {
+                text-align: center;
+            }
+            .left {
+                text-align: left;
+                .shield {
+                    width: 25px;
+                    height: 25px;
+                    padding-bottom: 5px;
+                    padding-left: 5px;
+                }
+                b {
+                    font-size: 0.9rem;
+                }
+            }
+            .centrado {
+                text-align: center;
+                font-weight: bold;
+            }
+        }
+        .cp1 {
+            background: $champions-league;
+            color: $blanco;
+            font-size: 1rem;
+        }
+        .cp3 {
+            background: $europa-league;
+            color: $blanco;
+            font-size: 1rem;
+        }
+        .cp4 {
+            background: $conference-league;
+            color: $blanco;
+            font-size: 1rem;
+        }
+        .ds1 {
+            background: $descenso;
+            color: $blanco;
+            font-size: 1rem;
+        }
+    }
+}

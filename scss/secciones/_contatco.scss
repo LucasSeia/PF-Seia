@@ -1,0 +1,65 @@
+/* ------------ CONTACTO ------------- */
+.contact-form {
+    h1 {
+        background-color: $rojo;
+        color: $blanco;
+        text-align: center;
+        font-size: 1.8rem;
+        margin: 10px 0;
+        padding: 5px 0;
+    }
+    .contacto {
+        background-image: $contacto;
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 40px;
+        border-radius: 40px;
+        margin-top: 25px;
+        margin-bottom: 30px;
+        .home {
+            text-align: center;
+            font-size: 1.7rem;
+            text-decoration-line: underline;
+            margin-bottom: 40px;
+        }
+        form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+            .form-group {
+                display: flex;
+                flex-direction: column;
+                label {
+                    font-size: 1.1rem;
+                    margin-bottom: 10px;
+                }
+                input, select, textarea {
+                    font-size: 0.9rem;
+                    padding: 10px;
+                    border-radius: 5px;
+                    border: none;
+                    color: $negro;
+                    &:focus {
+                        outline: none;
+                        box-shadow: $box-shadow-form;
+                    }
+                }
+                textarea {
+                    height: 150px;
+                }
+                button[type="submit"] {
+                    background-color: $boton;
+                    border-radius: 5px;
+                    border: none;
+                    color: $blanco;
+                    font-size: 1rem;
+                    padding: 10px;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: $boton-hover;
+                    }
+                }
+            }
+        }
+    }
+}

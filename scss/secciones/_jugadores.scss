@@ -1,0 +1,140 @@
+/* --------------- JUGADORES -------------------- */
+#players {
+    background-image: $jugadores;
+    h1 {
+        background-color: $rojo;
+        color: $blanco;
+        text-align: center;
+        font-size: 1.8rem;
+        margin: 10px 0;
+        padding: 5px 0;
+        margin-bottom: 50px;
+    }
+    h2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 30px;
+        background-image: $posicion;
+        color: $blanco;
+        border: $border3;
+        padding: 10px;
+    }
+    div {
+        img {
+            width: 200px;
+            padding: 10px;
+        }
+        .player-name {
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 5px;
+        }
+        .player-details {
+            font-size: 0.9rem;
+            text-align: center;
+        }
+    }
+    .grid-1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        .grid-hijo-1 {
+            background-image: $arqueros;
+            color: $negro;
+            padding: 10px;
+            border-radius: 50px;
+            box-shadow: $box-shadow-players;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+            &:hover {
+                transform: scale(1.1,1.1);
+                transition: 1s;
+            }
+        }
+    }
+    .grid-2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        .grid-hijo-2 {
+            background-image: $defensores;
+            color: $negro;
+            padding: 10px;
+            border-radius: 50px;
+            box-shadow: $box-shadow-players;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+            &:hover {
+                transform: scale(1.1,1.1);
+                transition: 1s;
+            }
+        }
+    }
+    .grid-3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        .grid-hijo-3 {
+            background-image: $mediocentro;
+            color: $negro;
+            padding: 10px;
+            border-radius: 50px;
+            box-shadow: $box-shadow-players;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+            &:hover {
+                transform: scale(1.1,1.1);
+                transition: 1s;
+            }
+        }
+    }
+    .grid-4 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        .grid-hijo-4 {
+            background-image: $delanteros;
+            color: $negro;
+            padding: 10px;
+            border-radius: 50px;
+            box-shadow: $box-shadow-players;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+            &:hover {
+                transform: scale(1.1,1.1);
+                transition: 1s;
+            }
+        }
+    }
+    .grid-5 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .grid-hijo-5 {
+            background-image: $tecnico;
+            color: $negro;
+            padding: 10px;
+            border-radius: 50px;
+            box-shadow: $box-shadow-players;
+            margin-bottom: 50px;
+            &:hover {
+                transform: scale(1.1,1.1);
+                transition: 1s;
+            }
+        }
+    }
+}
