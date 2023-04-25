@@ -60,28 +60,11 @@
         }
         .gris-claro {
             background-color: $gris-claro;
-            td {
-                text-align: center;
-            }
-            .left {
-                text-align: left;
-                .shield {
-                    width: 25px;
-                    height: 25px;
-                    padding-bottom: 5px;
-                    padding-left: 5px;
-                }
-                b {
-                    font-size: 0.9rem;
-                }
-            }
-            .centrado {
-                text-align: center;
-                font-weight: bold;
-            }
         }
         .gris-oscuro {
             background-color: $gris-oscuro;
+        }
+        .gris-claro, .gris-oscuro {
             td {
                 text-align: center;
             }

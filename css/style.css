@@ -206,36 +206,22 @@ header ul .nav-link {
         text-align: center; }
     #premier-league table .gris-claro {
       background-color: #e5e5e5; }
-      #premier-league table .gris-claro td {
-        text-align: center; }
-      #premier-league table .gris-claro .left {
-        text-align: left; }
-        #premier-league table .gris-claro .left .shield {
-          width: 25px;
-          height: 25px;
-          padding-bottom: 5px;
-          padding-left: 5px; }
-        #premier-league table .gris-claro .left b {
-          font-size: 0.9rem; }
-      #premier-league table .gris-claro .centrado {
-        text-align: center;
-        font-weight: bold; }
     #premier-league table .gris-oscuro {
       background-color: #ccbebe; }
-      #premier-league table .gris-oscuro td {
-        text-align: center; }
-      #premier-league table .gris-oscuro .left {
-        text-align: left; }
-        #premier-league table .gris-oscuro .left .shield {
-          width: 25px;
-          height: 25px;
-          padding-bottom: 5px;
-          padding-left: 5px; }
-        #premier-league table .gris-oscuro .left b {
-          font-size: 0.9rem; }
-      #premier-league table .gris-oscuro .centrado {
-        text-align: center;
-        font-weight: bold; }
+    #premier-league table .gris-claro td, #premier-league table .gris-oscuro td {
+      text-align: center; }
+    #premier-league table .gris-claro .left, #premier-league table .gris-oscuro .left {
+      text-align: left; }
+      #premier-league table .gris-claro .left .shield, #premier-league table .gris-oscuro .left .shield {
+        width: 25px;
+        height: 25px;
+        padding-bottom: 5px;
+        padding-left: 5px; }
+      #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
+        font-size: 0.9rem; }
+    #premier-league table .gris-claro .centrado, #premier-league table .gris-oscuro .centrado {
+      text-align: center;
+      font-weight: bold; }
     #premier-league table .cp1 {
       background: #061da5;
       color: #fff;
@@ -485,19 +471,12 @@ footer {
         width: 80px; }
       #premier-league table tr .estadisticas {
         width: 20px; }
-      #premier-league table .gris-claro .left .shield {
+      #premier-league table .gris-claro .left .shield, #premier-league table .gris-oscuro .left .shield {
         width: 18px;
         height: 18px;
         padding-bottom: 2px;
         padding-left: 2px; }
-      #premier-league table .gris-claro .left b {
-        font-size: 0.8rem; }
-      #premier-league table .gris-oscuro .left .shield {
-        width: 18px;
-        height: 18px;
-        padding-bottom: 2px;
-        padding-left: 2px; }
-      #premier-league table .gris-oscuro .left b {
+      #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
         font-size: 0.8rem; }
       #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1 {
         font-size: 0.8rem; } }
