@@ -1,0 +1,54 @@
+@mixin titulo {
+    background-color: $rojo;
+    color: $blanco;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 10px 0 40px 0;
+    padding: 5px 0;
+}
+
+@mixin premier ($fondo) {
+    background-color: $fondo;
+    color: $blanco;
+    text-align: center;
+}
+
+@mixin competiciones ($contorno) {
+    background: $contorno;
+    color: $blanco;
+    font-size: 1rem;
+}
+
+@mixin referencia ($position) {
+    background-image: $position;
+    color: $negro;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: $box-shadow-players;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+        &:hover {
+            transform: scale(1.1,1.1);
+            transition: 1s;
+        }
+}
+
+@mixin mes ($background, $color) {
+    background-color: $background;
+    color: $color;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+@mixin competencia ($backgrounds) {
+    background: $backgrounds;
+    color: $blanco;
+    font-size: 1rem;
+    font-weight: 700;
+    text-shadow: $text-shadow;
+    text-align: center;
+    overflow: hidden;
+    width: 25px;
+}

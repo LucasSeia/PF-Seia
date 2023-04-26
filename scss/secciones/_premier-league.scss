@@ -3,12 +3,7 @@
     background-image: $premier;
     padding-bottom: 50px;
     h1 {
-        background-color: $rojo;
-        color: $blanco;
-        text-align: center;
-        font-size: 1.8rem;
-        margin: 10px 0 40px 0;
-        padding: 5px 0;
+        @include titulo;
     }
     table {
         font-size: 0.9rem;
@@ -38,24 +33,16 @@
                 width: 35px;
             }
             .clasificado {
-                background-color: $champions-league;
-                color: $blanco;
-                text-align: center;
+                @include premier ($champions-league);
             }
             .uel {
-                background-color: $europa-league;
-                color: $blanco;
-                text-align: center;
+                @include premier ($europa-league);
             }
             .conference {
-                background-color: $conference-league;
-                color: $blanco;
-                text-align: center;
+                @include premier ($conference-league);
             }
             .descenso {
-                background-color: $descenso;
-                color: $blanco;
-                text-align: center;
+                @include premier ($descenso);
             }
         }
         .gris-claro {
@@ -86,24 +73,16 @@
             }
         }
         .cp1 {
-            background: $champions-league;
-            color: $blanco;
-            font-size: 1rem;
+            @include competiciones ($champions-league);
         }
         .cp3 {
-            background: $europa-league;
-            color: $blanco;
-            font-size: 1rem;
+            @include competiciones ($europa-league);
         }
         .cp4 {
-            background: $conference-league;
-            color: $blanco;
-            font-size: 1rem;
+            @include competiciones ($conference-league);
         }
         .ds1 {
-            background: $descenso;
-            color: $blanco;
-            font-size: 1rem;
+            @include competiciones ($descenso);
         }
     }
 }

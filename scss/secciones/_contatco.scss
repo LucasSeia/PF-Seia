@@ -1,12 +1,7 @@
 /* ------------ CONTACTO ------------- */
 .contact-form {
     h1 {
-        background-color: $rojo;
-        color: $blanco;
-        text-align: center;
-        font-size: 1.8rem;
-        margin: 10px 0;
-        padding: 5px 0;
+        @include titulo;
     }
     .contacto {
         background-image: $contacto;

@@ -2,12 +2,7 @@
 #players {
     background-image: $jugadores;
     h1 {
-        background-color: $rojo;
-        color: $blanco;
-        text-align: center;
-        font-size: 1.8rem;
-        margin: 10px 0;
-        padding: 5px 0;
+        @include titulo;
         margin-bottom: 50px;
     }
     h2 {
@@ -45,85 +40,30 @@
         justify-content: space-evenly;
         align-items: center;
         .grid-hijo-1 {
-            background-image: $arqueros;
-            color: $negro;
-            padding: 10px;
-            border-radius: 50px;
-            box-shadow: $box-shadow-players;
-            margin-left: 50px;
-            margin-right: 50px;
-            margin-bottom: 50px;
-            &:hover {
-                transform: scale(1.1,1.1);
-                transition: 1s;
-            }
+            @include referencia ($arqueros);
         }
     }
     .grid-2 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
+        @extend .grid-1;
         .grid-hijo-2 {
-            background-image: $defensores;
-            color: $negro;
-            padding: 10px;
-            border-radius: 50px;
-            box-shadow: $box-shadow-players;
-            margin-left: 50px;
-            margin-right: 50px;
-            margin-bottom: 50px;
-            &:hover {
-                transform: scale(1.1,1.1);
-                transition: 1s;
-            }
+            @include referencia ($defensores);
         }
     }
     .grid-3 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
+        @extend .grid-1;
         .grid-hijo-3 {
-            background-image: $mediocentro;
-            color: $negro;
-            padding: 10px;
-            border-radius: 50px;
-            box-shadow: $box-shadow-players;
-            margin-left: 50px;
-            margin-right: 50px;
-            margin-bottom: 50px;
-            &:hover {
-                transform: scale(1.1,1.1);
-                transition: 1s;
-            }
+            @include referencia ($mediocentro);
         }
     }
     .grid-4 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
+        @extend .grid-1;
         .grid-hijo-4 {
-            background-image: $delanteros;
-            color: $negro;
-            padding: 10px;
-            border-radius: 50px;
-            box-shadow: $box-shadow-players;
-            margin-left: 50px;
-            margin-right: 50px;
-            margin-bottom: 50px;
-            &:hover {
-                transform: scale(1.1,1.1);
-                transition: 1s;
-            }
+            @include referencia ($delanteros);
         }
     }
     .grid-5 {
-        display: flex;
-        flex-wrap: wrap;
+        @extend .grid-1;
         justify-content: center;
-        align-items: center;
         .grid-hijo-5 {
             background-image: $tecnico;
             color: $negro;

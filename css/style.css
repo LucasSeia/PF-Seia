@@ -40,7 +40,7 @@ header ul .nav-link {
   color: #fff;
   text-align: center;
   font-size: 1.8rem;
-  margin: 10px 0;
+  margin: 10px 0 40px 0;
   padding: 5px 0; }
 
 .main p {
@@ -71,7 +71,7 @@ header ul .nav-link {
     color: #fff;
     text-align: center;
     font-size: 1.8rem;
-    margin: 10px 0;
+    margin: 10px 0 40px 0;
     padding: 5px 0; }
   #fixture .table-fixture {
     width: 60%;
@@ -88,9 +88,9 @@ header ul .nav-link {
     #fixture .table-fixture .truco {
       background-color: #FFD972;
       color: #000;
-      text-align: center;
       font-size: 1rem;
-      font-weight: 700; }
+      font-weight: 700;
+      text-align: center; }
     #fixture .table-fixture .game-time {
       width: 60px;
       background: #00bd9d;
@@ -120,39 +120,38 @@ header ul .nav-link {
     #fixture .table-fixture .rojas1 {
       width: 25px; }
     #fixture .table-fixture .liga {
-      width: 25px;
       background: #4a66ff;
       color: #fff;
       font-size: 1rem;
       font-weight: 700;
       text-shadow: 1px 1px 1px #000;
       text-align: center;
-      overflow: hidden; }
+      overflow: hidden;
+      width: 25px; }
     #fixture .table-fixture .fa-cup {
-      width: 25px;
       background: #fb3640;
       color: #fff;
       font-size: 1rem;
       font-weight: 700;
       text-shadow: 1px 1px 1px #000;
       text-align: center;
-      overflow: hidden; }
+      overflow: hidden;
+      width: 25px; }
     #fixture .table-fixture .europa-league {
-      width: 25px;
       background: #ff6900;
       color: #fff;
       font-size: 1rem;
       font-weight: 700;
       text-shadow: 1px 1px 1px #000;
       text-align: center;
-      overflow: hidden; }
+      overflow: hidden;
+      width: 25px; }
     #fixture .table-fixture .envido {
-      width: 25px;
       background-color: #ef233c;
       color: #fff;
-      text-align: center;
       font-size: 1rem;
-      font-weight: 700; }
+      font-weight: 700;
+      text-align: center; }
 
 /* ----------------- TABLA DE POSICIONES -------------------- */
 #premier-league {
@@ -247,7 +246,7 @@ header ul .nav-link {
     color: #fff;
     text-align: center;
     font-size: 1.8rem;
-    margin: 10px 0;
+    margin: 10px 0 40px 0;
     padding: 5px 0;
     margin-bottom: 50px; }
   #players h2 {
@@ -273,12 +272,12 @@ header ul .nav-link {
   #players div .player-details {
     font-size: 0.9rem;
     text-align: center; }
-  #players .grid-1 {
+  #players .grid-1, #players .grid-2, #players .grid-3, #players .grid-4, #players .grid-5 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center; }
-    #players .grid-1 .grid-hijo-1 {
+    #players .grid-1 .grid-hijo-1, #players .grid-2 .grid-hijo-1, #players .grid-3 .grid-hijo-1, #players .grid-4 .grid-hijo-1, #players .grid-5 .grid-hijo-1 {
       background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
       color: #000;
       padding: 10px;
@@ -287,65 +286,47 @@ header ul .nav-link {
       margin-left: 50px;
       margin-right: 50px;
       margin-bottom: 50px; }
-      #players .grid-1 .grid-hijo-1:hover {
+      #players .grid-1 .grid-hijo-1:hover, #players .grid-2 .grid-hijo-1:hover, #players .grid-3 .grid-hijo-1:hover, #players .grid-4 .grid-hijo-1:hover, #players .grid-5 .grid-hijo-1:hover {
         transform: scale(1.1, 1.1);
         transition: 1s; }
-  #players .grid-2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center; }
-    #players .grid-2 .grid-hijo-2 {
-      background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
-      color: #000;
-      padding: 10px;
-      border-radius: 50px;
-      box-shadow: 10px 10px 10px black;
-      margin-left: 50px;
-      margin-right: 50px;
-      margin-bottom: 50px; }
-      #players .grid-2 .grid-hijo-2:hover {
-        transform: scale(1.1, 1.1);
-        transition: 1s; }
-  #players .grid-3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center; }
-    #players .grid-3 .grid-hijo-3 {
-      background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
-      color: #000;
-      padding: 10px;
-      border-radius: 50px;
-      box-shadow: 10px 10px 10px black;
-      margin-left: 50px;
-      margin-right: 50px;
-      margin-bottom: 50px; }
-      #players .grid-3 .grid-hijo-3:hover {
-        transform: scale(1.1, 1.1);
-        transition: 1s; }
-  #players .grid-4 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center; }
-    #players .grid-4 .grid-hijo-4 {
-      background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
-      color: #000;
-      padding: 10px;
-      border-radius: 50px;
-      box-shadow: 10px 10px 10px black;
-      margin-left: 50px;
-      margin-right: 50px;
-      margin-bottom: 50px; }
-      #players .grid-4 .grid-hijo-4:hover {
-        transform: scale(1.1, 1.1);
-        transition: 1s; }
+  #players .grid-2 .grid-hijo-2 {
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    color: #000;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px; }
+    #players .grid-2 .grid-hijo-2:hover {
+      transform: scale(1.1, 1.1);
+      transition: 1s; }
+  #players .grid-3 .grid-hijo-3 {
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+    color: #000;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px; }
+    #players .grid-3 .grid-hijo-3:hover {
+      transform: scale(1.1, 1.1);
+      transition: 1s; }
+  #players .grid-4 .grid-hijo-4 {
+    background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+    color: #000;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px; }
+    #players .grid-4 .grid-hijo-4:hover {
+      transform: scale(1.1, 1.1);
+      transition: 1s; }
   #players .grid-5 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; }
+    justify-content: center; }
     #players .grid-5 .grid-hijo-5 {
       background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
       color: #000;
@@ -363,7 +344,7 @@ header ul .nav-link {
   color: #fff;
   text-align: center;
   font-size: 1.8rem;
-  margin: 10px 0;
+  margin: 10px 0 40px 0;
   padding: 5px 0; }
 
 .contact-form .contacto {

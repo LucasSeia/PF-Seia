@@ -3,12 +3,7 @@
     background-color: $fixture;
     padding-bottom: 60px;
     h1 {
-        background-color: $rojo;
-        color: $blanco;
-        text-align: center;
-        font-size: 1.8rem;
-        margin: 10px 0;
-        padding: 5px 0;
+        @include titulo;
     }
     .table-fixture {
         width: 60%;
@@ -25,11 +20,7 @@
             border-color: inherit;
         }
         .truco {
-            background-color: $marzo;
-            color: $negro;
-            text-align: center;
-            font-size: 1rem;
-            font-weight: 700;
+            @include mes ($marzo,$negro);
         }
         .game-time {
             width: 60px;
@@ -68,42 +59,16 @@
             width: 25px;
         }
         .liga {
-            width: 25px;
-            background: $liga;
-            color: $blanco;
-            font-size: 1rem;
-            font-weight: 700;
-            text-shadow: $text-shadow;
-            text-align: center;
-            overflow: hidden;
+            @include competencia ($liga);
         }
         .fa-cup {
-            width: 25px;
-            background: $facup;
-            color: $blanco;
-            font-size: 1rem;
-            font-weight: 700;
-            text-shadow: $text-shadow;
-            text-align: center;
-            overflow: hidden;
+            @include competencia ($facup);
         }
         .europa-league {
-            width: 25px;
-            background: $europa-league;
-            color: $blanco;
-            font-size: 1rem;
-            font-weight: 700;
-            text-shadow: $text-shadow;
-            text-align: center;
-            overflow: hidden;
+            @include competencia ($europa-league);
         }
         .envido {
-            width: 25px;
-            background-color: $abril;
-            color: $blanco;
-            text-align: center;
-            font-size: 1rem;
-            font-weight: 700;
+            @include mes ($abril,$blanco)
         }
     }
 }
