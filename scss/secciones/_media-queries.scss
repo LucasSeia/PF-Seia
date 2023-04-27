@@ -10,11 +10,6 @@
             font-size: 0.9rem;
         }
     }
-    #players {
-        h2 {
-            font-size: 1.3rem;
-        }
-    }
 }
 @media screen and (max-width: 900px) {
     .main {
@@ -164,6 +159,9 @@
         h1 {
             margin-bottom: 20px;
         }
+        h2 {
+            font-size: 1.3rem;
+        }
         table {
             font-size: 0.8rem;
             width: 60%;
@@ -200,6 +198,9 @@
         h1 {
             margin-bottom: 20px;
         }
+        h2 {
+            font-size: 1.3rem;
+        }
         table {
             font-size: 0.8rem;
             width: 70%;
@@ -235,6 +236,9 @@
         padding-bottom: 40px;
         h1 {
             margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 1.2rem;
         }
         table {
             font-size: 0.7rem;
@@ -357,7 +361,7 @@
                 .form-group {
                     input, select, textarea {
                         font-size: 1rem;
-                        padding: 5px;
+                        padding: 10px;
                     }
                 }
             }
@@ -376,7 +380,7 @@
                 .form-group {
                     input, select, textarea {
                         font-size: 0.9rem;
-                        padding: 5px;
+                        padding: 8px;
                     }
                 }
             }
@@ -395,7 +399,7 @@
                 .form-group {
                     input, select, textarea {
                         font-size: 0.8rem;
-                        padding: 5px;
+                        padding: 8px;
                     }
                 }
             }
