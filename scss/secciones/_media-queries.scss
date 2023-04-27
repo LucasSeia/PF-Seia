@@ -1,37 +1,71 @@
 /* ------- MEDIA QUERIES ---------- */
-@media (max-width: 827px) {
+@media screen and (max-width: 827px) {
     .main {
         .show {
             img {
                 height: 10rem;
             }
         }
-        h1 {
-            font-size: 1.5rem;
-        }
         p {
             font-size: 0.9rem;
         }
     }
     #players {
-        h1 {
-            font-size: 1.5rem;
-        }
         h2 {
             font-size: 1.3rem;
         }
     }
 }
-@media (max-width: 700px) {
-    #fixture {
-        h1 {
-            font-size: 1.3rem;
+@media screen and (max-width: 900px) {
+    .main {
+        .carousel-indicators {
+            margin-bottom: 1.5rem;
         }
+        .w-100 {
+            margin-bottom: 20px;
+            margin-top: 10px;
+            padding: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 970px) {
+    #fixture {
+        .table-fixture {
+            width: 65%;
+            font-size: 0.8rem;
+            .game-time {
+                font-size: 0.8rem;
+                img {
+                    width: 25px;
+                    padding-top: 10px;
+                }
+            }
+            .game-t1 {
+                font-size: 0.8rem;
+                img {
+                    width: 20px;
+                }
+            }
+            .game-r1 {
+                font-size: 1rem;
+            }
+            .liga, .fa-cup, .europa-league {
+                font-size: 0.8rem;
+            }
+            .truco, .envido {
+                font-size: 0.9rem;
+            }
+        }
+    }
+} 
+@media screen and (max-width: 720px) {
+    #fixture {
         .table-fixture {
             width: 80%;
-            font-size: 0.6rem;
+            font-size: 0.7rem;
             .game-time {
-                font-size: 0.6rem;
+                font-size: 0.7rem;
                 img {
                     width: 25px;
                     padding-top: 10px;
@@ -47,7 +81,7 @@
                 font-size: 1rem;
             }
             .liga, .fa-cup, .europa-league {
-                font-size: 0.6rem;
+                font-size: 0.7rem;
             }
             .truco, .envido {
                 font-size: 0.9rem;
@@ -55,16 +89,118 @@
         }
     }
 } 
-@media (max-width: 908px) {
+@media screen and (max-width: 600px) {
+    #fixture {
+        .table-fixture {
+            width: 85%;
+            font-size: 0.6rem;
+            .game-time {
+                font-size: 0.6rem;
+                img {
+                    width: 25px;
+                    padding-top: 10px;
+                }
+            }
+            .game-t1 {
+                font-size: 0.6rem;
+                img {
+                    width: 20px;
+                }
+            }
+            .game-r1 {
+                font-size: 0.9rem;
+            }
+            .liga, .fa-cup, .europa-league {
+                font-size: 0.6rem;
+            }
+            .truco, .envido {
+                font-size: 0.8rem;
+            }
+        }
+    }
+} 
+
+@media screen and (max-width: 1100px) {
     #premier-league {
         padding-bottom: 40px;
         h1 {
-            font-size: 1.3rem;
+            margin-bottom: 20px;
+        }
+        table {
+            font-size: 0.9rem;
+            width: 60%;
+            tr {
+                .club {
+                    width: 80px;
+                }
+                .estadisticas {
+                    width: 20px;
+                }
+            }
+            .gris-claro, .gris-oscuro {
+                .left {
+                    .shield {
+                        width: 20px;
+                        height: 20px;
+                        padding-bottom: 2px;
+                        padding-left: 2px;
+                    }
+                    b {
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+            .cp1, .cp3, .cp4, .ds1 {
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+@media screen and (max-width: 850px) {
+    #premier-league {
+        padding-bottom: 40px;
+        h1 {
             margin-bottom: 20px;
         }
         table {
             font-size: 0.8rem;
-            width: 85%;
+            width: 60%;
+            tr {
+                .club {
+                    width: 80px;
+                }
+                .estadisticas {
+                    width: 20px;
+                }
+            }
+            .gris-claro, .gris-oscuro {
+                .left {
+                    .shield {
+                        width: 20px;
+                        height: 20px;
+                        padding-bottom: 2px;
+                        padding-left: 2px;
+                    }
+                    b {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+            .cp1, .cp3, .cp4, .ds1 {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+@media screen and (max-width: 750px) {
+    #premier-league {
+        padding-bottom: 40px;
+        h1 {
+            margin-bottom: 20px;
+        }
+        table {
+            font-size: 0.8rem;
+            width: 70%;
             tr {
                 .club {
                     width: 80px;
@@ -92,7 +228,160 @@
         }
     }
 }
-@media (max-width: 750px) {
+@media screen and (max-width: 630px) {
+    #premier-league {
+        padding-bottom: 40px;
+        h1 {
+            margin-bottom: 20px;
+        }
+        table {
+            font-size: 0.7rem;
+            width: 70%;
+            tr {
+                .club {
+                    width: 80px;
+                }
+                .estadisticas {
+                    width: 20px;
+                }
+            }
+            .gris-claro, .gris-oscuro {
+                .left {
+                    .shield {
+                        width: 18px;
+                        height: 18px;
+                        padding-bottom: 2px;
+                        padding-left: 2px;
+                    }
+                    b {
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+            .cp1, .cp3, .cp4, .ds1 {
+                font-size: 0.7rem;
+            }
+        }
+    }
+}
+@media screen and (max-width: 575px) {
+    #premier-league {
+        padding-bottom: 40px;
+        h1 {
+            margin-bottom: 20px;
+        }
+        table {
+            font-size: 0.6rem;
+            width: 85%;
+            tr {
+                .club {
+                    width: 80px;
+                }
+                .estadisticas {
+                    width: 20px;
+                }
+            }
+            .gris-claro, .gris-oscuro {
+                .left {
+                    .shield {
+                        width: 18px;
+                        height: 18px;
+                        padding-bottom: 2px;
+                        padding-left: 2px;
+                    }
+                    b {
+                        font-size: 0.6rem;
+                    }
+                }
+            }
+            .cp1, .cp3, .cp4, .ds1 {
+                font-size: 0.6rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:500px) {
+    #players {
+        div {
+            img {
+                width: 160px;
+            }
+            .player-name {
+                font-size: 1rem;
+            }
+        
+            .player-details {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 925px) {
+    .contact-form {
+        .contacto {
+            max-width: 800px;
+            border-radius: 30px;
+        }
+    }
+}
+@media screen and (max-width: 830px) {
+    .contact-form {
+        .contacto {
+            max-width: 700px;
+            border-radius: 30px;
+        }
+    }
+}
+@media screen and (max-width: 720px) {
+    .contact-form {
+        .contacto {
+            max-width: 600px;
+            border-radius: 30px;
+        }
+    }
+}
+@media screen and (max-width: 630px) {
+    .contact-form {
+        .contacto {
+            max-width: 500px;
+            border-radius: 30px;
+            form {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-gap: 30px;
+                .form-group {
+                    input, select, textarea {
+                        font-size: 1rem;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 530px) {
+    .contact-form {
+        .contacto {
+            max-width: 400px;
+            border-radius: 30px;
+            form {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-gap: 30px;
+                .form-group {
+                    input, select, textarea {
+                        font-size: 0.9rem;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 430px) {
     .contact-form {
         .contacto {
             max-width: 300px;
@@ -111,43 +400,73 @@
         }
     }
 }
-@media (max-width: 900px) {
+
+
+
+@media screen and (max-width:768px) {
     .main {
-        .carousel-indicators {
-            margin-bottom: 1.5rem;
-        }
-        .w-100 {
-            margin-bottom: 20px;
-            margin-top: 10px;
-            padding: 10px;
+        h1 {
+            font-size: 1.5rem;
         }
     }
-}
-@media (max-width:500px) {
+    #fixture {
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+    #premier-league {
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
     #players {
-        div {
-            img {
-                width: 160px;
-            }
-            .player-name {
-                font-size: 0.8rem;
-            }
-        
-            .player-details {
-                font-size: 0.7rem;
-            }
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+    .contact-form {
+        h1 {
+            font-size: 1.5rem;
         }
     }
 }
+@media screen and (max-width:500px) {
+    .main {
+        h1 {
+            font-size: 1.3rem;
+        }
+    }
+    #fixture {
+        h1 {
+            font-size: 1.3rem;
+        }
+    }
+    #premier-league {
+        h1 {
+            font-size: 1.3rem;
+        }
+    }
+    #players {
+        h1 {
+            font-size: 1.3rem;
+        }
+    }
+    .contact-form {
+        h1 {
+            font-size: 1.3rem;
+        }
+    }
+}
+
 /* ------------- NAVVAR ---------------- */
-@media (min-width: 992px){
+@media screen and (min-width: 992px){
     .navbar-expand-lg .navbar-collapse {
         display: flex!important;
         flex-basis: auto;
         justify-content: flex-end;
     }
 }
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding: 30px;
     }
