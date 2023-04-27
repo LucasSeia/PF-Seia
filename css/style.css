@@ -422,9 +422,7 @@ footer {
   .main .show img {
     height: 10rem; }
   .main p {
-    font-size: 0.9rem; }
-  #players h2 {
-    font-size: 1.3rem; } }
+    font-size: 0.9rem; } }
 
 @media screen and (max-width: 900px) {
   .main .carousel-indicators {
@@ -521,6 +519,8 @@ footer {
     padding-bottom: 40px; }
     #premier-league h1 {
       margin-bottom: 20px; }
+    #premier-league h2 {
+      font-size: 1.3rem; }
     #premier-league table {
       font-size: 0.8rem;
       width: 60%; }
@@ -543,6 +543,8 @@ footer {
     padding-bottom: 40px; }
     #premier-league h1 {
       margin-bottom: 20px; }
+    #premier-league h2 {
+      font-size: 1.3rem; }
     #premier-league table {
       font-size: 0.8rem;
       width: 70%; }
@@ -565,6 +567,8 @@ footer {
     padding-bottom: 40px; }
     #premier-league h1 {
       margin-bottom: 20px; }
+    #premier-league h2 {
+      font-size: 1.2rem; }
     #premier-league table {
       font-size: 0.7rem;
       width: 70%; }
@@ -637,7 +641,7 @@ footer {
       grid-gap: 30px; }
       .contact-form .contacto form .form-group input, .contact-form .contacto form .form-group select, .contact-form .contacto form .form-group textarea {
         font-size: 1rem;
-        padding: 5px; } }
+        padding: 10px; } }
 
 @media screen and (max-width: 530px) {
   .contact-form .contacto {
@@ -649,7 +653,7 @@ footer {
       grid-gap: 30px; }
       .contact-form .contacto form .form-group input, .contact-form .contacto form .form-group select, .contact-form .contacto form .form-group textarea {
         font-size: 0.9rem;
-        padding: 5px; } }
+        padding: 8px; } }
 
 @media screen and (max-width: 430px) {
   .contact-form .contacto {
@@ -661,7 +665,7 @@ footer {
       grid-gap: 30px; }
       .contact-form .contacto form .form-group input, .contact-form .contacto form .form-group select, .contact-form .contacto form .form-group textarea {
         font-size: 0.8rem;
-        padding: 5px; } }
+        padding: 8px; } }
 
 @media screen and (max-width: 768px) {
   .main h1 {
