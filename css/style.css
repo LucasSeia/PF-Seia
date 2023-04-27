@@ -588,8 +588,8 @@ footer {
     #premier-league h1 {
       margin-bottom: 20px; }
     #premier-league table {
-      font-size: 0.6rem;
-      width: 85%; }
+      font-size: 0.7rem;
+      width: 95%; }
       #premier-league table tr .club {
         width: 80px; }
       #premier-league table tr .estadisticas {
@@ -600,9 +600,9 @@ footer {
         padding-bottom: 2px;
         padding-left: 2px; }
       #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
-        font-size: 0.6rem; }
+        font-size: 0.7rem; }
       #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1 {
-        font-size: 0.6rem; } }
+        font-size: 0.7rem; } }
 
 @media screen and (max-width: 500px) {
   #players div img {
