@@ -29,6 +29,7 @@
     }
 }
 
+
 @media screen and (max-width: 970px) {
     #fixture {
         .table-fixture {
@@ -89,36 +90,37 @@
         }
     }
 } 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 590px) {
     #fixture {
         .table-fixture {
-            width: 85%;
-            font-size: 0.6rem;
+            width: 95%;
+            font-size: 0.7rem;
             .game-time {
-                font-size: 0.6rem;
+                font-size: 0.7rem;
                 img {
                     width: 25px;
                     padding-top: 10px;
                 }
             }
             .game-t1 {
-                font-size: 0.6rem;
+                font-size: 0.7rem;
                 img {
                     width: 20px;
                 }
             }
             .game-r1 {
-                font-size: 0.9rem;
+                font-size: 1rem;
             }
             .liga, .fa-cup, .europa-league {
-                font-size: 0.6rem;
+                font-size: 0.7rem;
             }
             .truco, .envido {
-                font-size: 0.8rem;
+                font-size: 0.9rem;
             }
         }
     }
 } 
+
 
 @media screen and (max-width: 1100px) {
     #premier-league {
