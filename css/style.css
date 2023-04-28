@@ -283,7 +283,9 @@ header ul .nav-link {
     text-align: center; }
     #players div .country img {
       width: 60px;
-      height: 60px; }
+      height: 60px;
+      margin-bottom: -16px;
+      margin-top: -17px; }
   #players .grid-1, #players .grid-2, #players .grid-3, #players .grid-4, #players .grid-5 {
     display: flex;
     flex-wrap: wrap;
@@ -482,7 +484,7 @@ footer {
     width: 95%;
     font-size: 0.7rem; }
     #fixture .table-fixture .game-time {
-      font-size: 0.7rem; }
+      font-size: 0.6rem; }
       #fixture .table-fixture .game-time img {
         width: 25px;
         padding-top: 10px; }
@@ -493,7 +495,7 @@ footer {
     #fixture .table-fixture .game-r1 {
       font-size: 1rem; }
     #fixture .table-fixture .liga, #fixture .table-fixture .fa-cup, #fixture .table-fixture .europa-league {
-      font-size: 0.7rem; }
+      font-size: 0.6rem; }
     #fixture .table-fixture .truco, #fixture .table-fixture .envido {
       font-size: 0.9rem; } }
 
@@ -572,8 +574,6 @@ footer {
     padding-bottom: 40px; }
     #premier-league h1 {
       margin-bottom: 20px; }
-    #premier-league h2 {
-      font-size: 1.2rem; }
     #premier-league table {
       font-size: 0.7rem;
       width: 70%; }
@@ -614,12 +614,19 @@ footer {
         font-size: 0.7rem; } }
 
 @media screen and (max-width: 500px) {
+  #players h2 {
+    font-size: 1.1rem; }
   #players div img {
     width: 160px; }
   #players div .player-name {
     font-size: 1rem; }
   #players div .player-details {
-    font-size: 0.8rem; } }
+    font-size: 0.8rem; }
+  #players div .country img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: -16px;
+    margin-top: -17px; } }
 
 @media screen and (max-width: 925px) {
   .contact-form .contacto {
@@ -695,6 +702,18 @@ footer {
     font-size: 1.3rem; }
   .contact-form h1 {
     font-size: 1.3rem; } }
+
+@media screen and (max-width: 375px) {
+  .main h1 {
+    font-size: 1.2rem; }
+  #fixture h1 {
+    font-size: 1.2rem; }
+  #premier-league h1 {
+    font-size: 1.2rem; }
+  #players h1 {
+    font-size: 1.2rem; }
+  .contact-form h1 {
+    font-size: 1.2rem; } }
 
 /* ------------- NAVVAR ---------------- */
 @media screen and (min-width: 992px) {
