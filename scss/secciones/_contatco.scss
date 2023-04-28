@@ -11,42 +11,14 @@
         border-radius: 40px;
         margin-top: 25px;
         margin-bottom: 30px;
-        //.home {
-            //text-align: center;
-            //font-size: 1.7rem;
-            //text-decoration-line: underline;
-            //margin-bottom: 40px;
-        //}
-        .contenedor {
-            margin: auto;
-            display: table;
-            h2 {
-                float: left;
-                color: $negro;
-                position: relative;
-                text-decoration: underline;
-                padding-bottom: 30px;
-                span {
-                    position: absolute;
-                    right: 0;
-                    width: 0;
-                    background-color: #97d9e1;
-                    border-left: 1px solid transparent;
-                    animation-name: maquina;
-                    animation-duration: 4s;
-                    animation-iteration-count: initial;
-                    animation-direction: alternate;
-                    animation-play-state: 11;
-                }
-                @keyframes maquina {
-                    from {
-                        width: 100%;
-                    }
-                    to {
-                        width: 0;
-                    }
-                }
-            }
+        .home {
+            background-image: $contacto-titulo;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border: 5px double $negro;
+            padding: 5px;
+            text-align: center;
+            margin-bottom: 40px;
         }
         form {
             display: grid;
