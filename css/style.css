@@ -279,6 +279,11 @@ header ul .nav-link {
   #players div .player-details {
     font-size: 0.9rem;
     text-align: center; }
+  #players div .country {
+    text-align: center; }
+    #players div .country img {
+      width: 60px;
+      height: 60px; }
   #players .grid-1, #players .grid-2, #players .grid-3, #players .grid-4, #players .grid-5 {
     display: flex;
     flex-wrap: wrap;

@@ -33,6 +33,13 @@
             font-size: 0.9rem;
             text-align: center;
         }
+        .country {
+            text-align: center;
+            img {
+                width: 60px;
+                height: 60px;
+            }
+        }
     }
     .grid-1 {
         display: flex;
