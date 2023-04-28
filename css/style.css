@@ -64,7 +64,7 @@ header ul .nav-link {
 .main .w-100 {
   margin-bottom: 20px;
   margin-top: 10px;
-  padding: 50px 20px 30px 20px; }
+  padding: 50px 40px 30px 40px; }
 
 .main .carousel-indicators {
   margin-bottom: 3rem; }
@@ -369,11 +369,32 @@ header ul .nav-link {
   border-radius: 40px;
   margin-top: 25px;
   margin-bottom: 30px; }
-  .contact-form .contacto .home {
-    text-align: center;
-    font-size: 1.7rem;
-    text-decoration-line: underline;
-    margin-bottom: 40px; }
+  .contact-form .contacto .contenedor {
+    margin: auto;
+    display: table; }
+    .contact-form .contacto .contenedor h2 {
+      float: left;
+      color: #000;
+      position: relative;
+      text-decoration: underline;
+      padding-bottom: 30px; }
+      .contact-form .contacto .contenedor h2 span {
+        position: absolute;
+        right: 0;
+        width: 0;
+        background-color: #97d9e1;
+        border-left: 1px solid transparent;
+        animation-name: maquina;
+        animation-duration: 4s;
+        animation-iteration-count: initial;
+        animation-direction: alternate;
+        animation-play-state: 11; }
+
+@keyframes maquina {
+  from {
+    width: 100%; }
+  to {
+    width: 0; } }
   .contact-form .contacto form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -681,29 +702,29 @@ footer {
 
 @media screen and (max-width: 768px) {
   .main h1 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   #fixture h1 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   #premier-league h1 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   #players h1 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   .contact-form h1 {
-    font-size: 1.5rem; } }
+    font-size: 1.6rem; } }
 
 @media screen and (max-width: 500px) {
   .main h1 {
-    font-size: 1.3rem; }
+    font-size: 1.4rem; }
   #fixture h1 {
-    font-size: 1.3rem; }
+    font-size: 1.4rem; }
   #premier-league h1 {
-    font-size: 1.3rem; }
+    font-size: 1.4rem; }
   #players h1 {
-    font-size: 1.3rem; }
+    font-size: 1.4rem; }
   .contact-form h1 {
-    font-size: 1.3rem; } }
+    font-size: 1.4rem; } }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 385px) {
   .main h1 {
     font-size: 1.2rem; }
   #fixture h1 {
