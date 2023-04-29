@@ -153,6 +153,18 @@ header ul .nav-link {
       font-size: 1rem;
       font-weight: 700;
       text-align: center; }
+    #fixture .table-fixture .retruco {
+      background-color: #6af832;
+      color: #000;
+      font-size: 1rem;
+      font-weight: 700;
+      text-align: center; }
+    #fixture .table-fixture .real-envido {
+      background-color: #D4AF37;
+      color: #000;
+      font-size: 1rem;
+      font-weight: 700;
+      text-align: center; }
 
 /* ----------------- TABLA DE POSICIONES -------------------- */
 #premier-league {
@@ -178,7 +190,7 @@ header ul .nav-link {
       color: #fff;
       display: table-cell;
       vertical-align: inherit;
-      font-weight: bold;
+      font-weight: 700;
       text-align: center; }
     #premier-league table tr {
       display: table-row;
@@ -221,7 +233,7 @@ header ul .nav-link {
         font-size: 0.9rem; }
     #premier-league table .gris-claro .centrado, #premier-league table .gris-oscuro .centrado {
       text-align: center;
-      font-weight: bold; }
+      font-weight: 700; }
     #premier-league table .cp1 {
       background: #061da5;
       color: #fff;
@@ -366,7 +378,7 @@ header ul .nav-link {
   .contact-form .contacto .home {
     background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 700;
     border: 5px double #000;
     padding: 5px;
     text-align: center;
@@ -453,7 +465,7 @@ footer {
       font-size: 1rem; }
     #fixture .table-fixture .liga, #fixture .table-fixture .fa-cup, #fixture .table-fixture .europa-league {
       font-size: 0.8rem; }
-    #fixture .table-fixture .truco, #fixture .table-fixture .envido {
+    #fixture .table-fixture .truco, #fixture .table-fixture .envido, #fixture .table-fixture .retruco, #fixture .table-fixture .real-envido {
       font-size: 0.9rem; } }
 
 @media screen and (max-width: 720px) {
@@ -473,7 +485,7 @@ footer {
       font-size: 1rem; }
     #fixture .table-fixture .liga, #fixture .table-fixture .fa-cup, #fixture .table-fixture .europa-league {
       font-size: 0.7rem; }
-    #fixture .table-fixture .truco, #fixture .table-fixture .envido {
+    #fixture .table-fixture .truco, #fixture .table-fixture .envido, #fixture .table-fixture .retruco, #fixture .table-fixture .real-envido {
       font-size: 0.9rem; } }
 
 @media screen and (max-width: 590px) {
@@ -493,7 +505,7 @@ footer {
       font-size: 1rem; }
     #fixture .table-fixture .liga, #fixture .table-fixture .fa-cup, #fixture .table-fixture .europa-league {
       font-size: 0.6rem; }
-    #fixture .table-fixture .truco, #fixture .table-fixture .envido {
+    #fixture .table-fixture .truco, #fixture .table-fixture .envido, #fixture .table-fixture .retruco, #fixture .table-fixture .real-envido {
       font-size: 0.9rem; } }
 
 @media screen and (max-width: 1100px) {

@@ -69,7 +69,13 @@
             @include competencia ($europa-league);
         }
         .envido {
-            @include mes ($abril,$blanco)
+            @include mes ($abril,$blanco);
+        }
+        .retruco {
+            @include mes ($mayo,$negro);
+        }
+        .real-envido {
+            @include mes ($junio,$negro);
         }
     }
 }
