@@ -1,4 +1,4 @@
-/* Colores del header, h1 y footer */
+// Colores del header, h1 y footer 
 
 $rojo: #c70101;
 $blanco: #fff;
@@ -6,7 +6,7 @@ $negro: #000;
 $foot: #2a2a2a;
 
 
-/* Colores del fixture */
+// Colores del fixture 
 
 $fixture: #A7E88D;
 $marzo: #FFD972;
@@ -19,7 +19,7 @@ $abril: #ef233c;
 $gano: #ff0000;
 
 
-/* Colores de la premier league */
+// Colores de la premier league 
 
 $premier: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
 $fila1: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
@@ -29,7 +29,7 @@ $descenso: #ff0033;
 $gris-oscuro: #ccbebe;
 
 
-/* Colores de los jugadores */
+// Colores de los jugadores 
 
 $jugadores: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
 $arqueros: linear-gradient(to right, #f83600 0%, #f9d423 100%);
@@ -40,7 +40,7 @@ $delanteros: linear-gradient(to right, #0acffe 0%, #495aff 100%);
 $tecnico: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
 
 
-/* Colores, bordes,text-shadow, box-shadow de la sección contacto */
+//Colores, bordes,text-shadow, box-shadow de la sección contacto
 
 $contacto-titulo: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
 $contacto: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
@@ -52,6 +52,3 @@ $text-shadow: 1px 1px 1px #000;
 $border3: 5px #fff outset;
 $box-shadow-players: 10px 10px 10px rgba(0, 0, 0, 1);
 $box-shadow-form: 0 0 5px #666;
-
-
-/* ---------------------------------- FIN ------------------------------ */
