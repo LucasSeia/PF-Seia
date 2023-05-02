@@ -13,6 +13,11 @@
 }
 @media screen and (max-width: 900px) {
     .main {
+        p {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 30px;
+        }
         .carousel-indicators {
             margin-bottom: 1.5rem;
         }
@@ -115,6 +120,36 @@
         }
     }
 } 
+@media screen and (max-width: 320px) {
+    #fixture {
+        .table-fixture {
+            width: 95%;
+            font-size: 0.6rem;
+            .game-time {
+                font-size: 0.5rem;
+                img {
+                    width: 25px;
+                    padding-top: 10px;
+                }
+            }
+            .game-t1 {
+                font-size: 0.6rem;
+                img {
+                    width: 20px;
+                }
+            }
+            .game-r1 {
+                font-size: 0.9rem;
+            }
+            .liga, .fa-cup, .europa-league {
+                font-size: 0.6rem;
+            }
+            .truco, .envido, .retruco, .real-envido {
+                font-size: 0.8rem;
+            }
+        }
+    }
+} 
 
 
 @media screen and (max-width: 1100px) {
@@ -145,6 +180,9 @@
                     b {
                         font-size: 0.9rem;
                     }
+                }
+                .centrado {
+                    font-size: 1rem;
                 }
             }
             .cp1, .cp3, .cp4, .ds1 {
@@ -185,6 +223,9 @@
                         font-size: 0.8rem;
                     }
                 }
+                .centrado {
+                    font-size: 0.9rem;
+                }
             }
             .cp1, .cp3, .cp4, .ds1 {
                 font-size: 0.8rem;
@@ -224,6 +265,9 @@
                         font-size: 0.8rem;
                     }
                 }
+                .centrado {
+                    font-size: 0.9rem;
+                }
             }
             .cp1, .cp3, .cp4, .ds1 {
                 font-size: 0.8rem;
@@ -259,6 +303,9 @@
                     b {
                         font-size: 0.7rem;
                     }
+                }
+                .centrado {
+                    font-size: 0.8rem;
                 }
             }
             .cp1, .cp3, .cp4, .ds1 {
@@ -299,6 +346,9 @@
             }
             .cp1, .cp3, .cp4, .ds1 {
                 font-size: 0.7rem;
+            }
+            .centrado {
+                font-size: 0.8rem;
             }
         }
     }

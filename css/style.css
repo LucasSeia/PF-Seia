@@ -233,7 +233,8 @@ header ul .nav-link {
         font-size: 0.9rem; }
     #premier-league table .gris-claro .centrado, #premier-league table .gris-oscuro .centrado {
       text-align: center;
-      font-weight: 700; }
+      font-weight: 700;
+      font-size: 1rem; }
     #premier-league table .cp1 {
       background: #061da5;
       color: #fff;
@@ -441,6 +442,10 @@ footer {
     font-size: 0.9rem; } }
 
 @media screen and (max-width: 900px) {
+  .main p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px; }
   .main .carousel-indicators {
     margin-bottom: 1.5rem; }
   .main .w-100 {
@@ -508,6 +513,26 @@ footer {
     #fixture .table-fixture .truco, #fixture .table-fixture .envido, #fixture .table-fixture .retruco, #fixture .table-fixture .real-envido {
       font-size: 0.9rem; } }
 
+@media screen and (max-width: 320px) {
+  #fixture .table-fixture {
+    width: 95%;
+    font-size: 0.6rem; }
+    #fixture .table-fixture .game-time {
+      font-size: 0.5rem; }
+      #fixture .table-fixture .game-time img {
+        width: 25px;
+        padding-top: 10px; }
+    #fixture .table-fixture .game-t1 {
+      font-size: 0.6rem; }
+      #fixture .table-fixture .game-t1 img {
+        width: 20px; }
+    #fixture .table-fixture .game-r1 {
+      font-size: 0.9rem; }
+    #fixture .table-fixture .liga, #fixture .table-fixture .fa-cup, #fixture .table-fixture .europa-league {
+      font-size: 0.6rem; }
+    #fixture .table-fixture .truco, #fixture .table-fixture .envido, #fixture .table-fixture .retruco, #fixture .table-fixture .real-envido {
+      font-size: 0.8rem; } }
+
 @media screen and (max-width: 1100px) {
   #premier-league {
     padding-bottom: 40px; }
@@ -527,6 +552,8 @@ footer {
         padding-left: 2px; }
       #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
         font-size: 0.9rem; }
+      #premier-league table .gris-claro .centrado, #premier-league table .gris-oscuro .centrado {
+        font-size: 1rem; }
       #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1 {
         font-size: 0.9rem; } }
 
@@ -551,6 +578,8 @@ footer {
         padding-left: 2px; }
       #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
         font-size: 0.8rem; }
+      #premier-league table .gris-claro .centrado, #premier-league table .gris-oscuro .centrado {
+        font-size: 0.9rem; }
       #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1 {
         font-size: 0.8rem; } }
 
@@ -575,6 +604,8 @@ footer {
         padding-left: 2px; }
       #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
         font-size: 0.8rem; }
+      #premier-league table .gris-claro .centrado, #premier-league table .gris-oscuro .centrado {
+        font-size: 0.9rem; }
       #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1 {
         font-size: 0.8rem; } }
 
@@ -597,6 +628,8 @@ footer {
         padding-left: 2px; }
       #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
         font-size: 0.7rem; }
+      #premier-league table .gris-claro .centrado, #premier-league table .gris-oscuro .centrado {
+        font-size: 0.8rem; }
       #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1 {
         font-size: 0.7rem; } }
 
@@ -620,7 +653,9 @@ footer {
       #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
         font-size: 0.7rem; }
       #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1 {
-        font-size: 0.7rem; } }
+        font-size: 0.7rem; }
+      #premier-league table .centrado {
+        font-size: 0.8rem; } }
 
 @media screen and (max-width: 500px) {
   #players h2 {
