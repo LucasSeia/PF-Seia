@@ -453,27 +453,27 @@ footer {
     margin-top: 10px;
     padding: 10px; } }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1050px) {
   #fixture .table-fixture {
-    width: 65%;
-    font-size: 0.8rem; }
+    width: 70%;
+    font-size: 0.9rem; }
     #fixture .table-fixture .game-time {
-      font-size: 0.8rem; }
+      font-size: 0.9rem; }
       #fixture .table-fixture .game-time img {
         width: 25px;
         padding-top: 10px; }
     #fixture .table-fixture .game-t1 {
-      font-size: 0.8rem; }
+      font-size: 0.9rem; }
       #fixture .table-fixture .game-t1 img {
         width: 20px; }
     #fixture .table-fixture .game-r1 {
       font-size: 1rem; }
     #fixture .table-fixture .liga, #fixture .table-fixture .fa-cup, #fixture .table-fixture .europa-league {
-      font-size: 0.8rem; }
+      font-size: 0.9rem; }
     #fixture .table-fixture .truco, #fixture .table-fixture .envido, #fixture .table-fixture .retruco, #fixture .table-fixture .real-envido {
-      font-size: 0.9rem; } }
+      font-size: 1rem; } }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 780px) {
   #fixture .table-fixture {
     width: 80%;
     font-size: 0.7rem; }
