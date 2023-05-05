@@ -30,20 +30,20 @@
 }
 
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1050px) {
     #fixture {
         .table-fixture {
-            width: 65%;
-            font-size: 0.8rem;
+            width: 70%;
+            font-size: 0.9rem;
             .game-time {
-                font-size: 0.8rem;
+                font-size: 0.9rem;
                 img {
                     width: 25px;
                     padding-top: 10px;
                 }
             }
             .game-t1 {
-                font-size: 0.8rem;
+                font-size: 0.9rem;
                 img {
                     width: 20px;
                 }
@@ -52,15 +52,15 @@
                 font-size: 1rem;
             }
             .liga, .fa-cup, .europa-league {
-                font-size: 0.8rem;
+                font-size: 0.9rem;
             }
             .truco, .envido, .retruco, .real-envido {
-                font-size: 0.9rem;
+                font-size: 1rem;
             }
         }
     }
 } 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 780px) {
     #fixture {
         .table-fixture {
             width: 80%;
