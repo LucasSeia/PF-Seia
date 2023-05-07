@@ -26,6 +26,28 @@ header {
         .nav-link {
             font-size: 1.1rem;
             color: $blanco;
+            text-decoration: none;
+            position: relative;
+            transition: all 0.3s ease;
+            &::before {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                bottom: 0;
+                left: 0;
+                background-color: $negro;
+                visibility: hidden;
+                transform: scaleX(0);
+                transition: all 0.3s ease;
+            }
+            &:hover {
+                color: $negro;
+            }
+            &:hover::before {
+                visibility: visible;
+                transform: scaleX(1);
+            }
         }
     }
 }
