@@ -19,21 +19,6 @@
     font-size: 1rem;
 }
 
-@mixin referencia ($position) {
-    background-image: $position;
-    color: $negro;
-    padding: 10px;
-    border-radius: 50px;
-    box-shadow: $box-shadow-players;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-        &:hover {
-            transform: scale(1.1,1.1);
-            transition: 1s;
-        }
-}
-
 @mixin mes ($background, $color) {
     background-color: $background;
     color: $color;

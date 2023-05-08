@@ -5,7 +5,7 @@
         @include titulo;
         margin-bottom: 50px;
     }
-    h2 {
+    .players__posicion {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -18,72 +18,70 @@
         border: $border3;
         padding: 10px;
     }
-    div {
-        img {
-            width: 200px;
-            padding: 10px;
-        }
-        .player-name {
-            font-size: 1.1rem;
-            font-weight: bold;
-            text-align: center;
-            padding: 5px;
-        }
-        .player-details {
-            font-size: 0.9rem;
-            text-align: center;
-        }
-        .country {
-            text-align: center;
-            img {
-                width: 60px;
-                height: 60px;
-                margin-bottom: -16px;
-                margin-top: -17px;
-            }
-        }
-    }
-    .grid-1 {
+    .players__cards {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
-        .grid-hijo-1 {
-            @include referencia ($arqueros);
-        }
-    }
-    .grid-2 {
-        @extend .grid-1;
-        .grid-hijo-2 {
-            @include referencia ($defensores);
-        }
-    }
-    .grid-3 {
-        @extend .grid-1;
-        .grid-hijo-3 {
-            @include referencia ($mediocentro);
-        }
-    }
-    .grid-4 {
-        @extend .grid-1;
-        .grid-hijo-4 {
-            @include referencia ($delanteros);
-        }
-    }
-    .grid-5 {
-        @extend .grid-1;
-        justify-content: center;
-        .grid-hijo-5 {
-            background-image: $tecnico;
+        .players__grid {
             color: $negro;
             padding: 10px;
             border-radius: 50px;
             box-shadow: $box-shadow-players;
+            margin-left: 50px;
+            margin-right: 50px;
             margin-bottom: 50px;
-            &:hover {
-                transform: scale(1.1,1.1);
-                transition: 1s;
+                &:hover {
+                    transform: scale(1.1,1.1);
+                    transition: 1s;
+                }
+            img {
+                width: 200px;
+                padding: 10px;
             }
+            .players__country {
+                .players__details {
+                    text-align: center;
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        margin-bottom: -16px;
+                        margin-top: -17px;
+                    }
+                }  
+            }
+            .players__name {
+                font-size: 1.1rem;
+                font-weight: bold;
+                text-align: center;
+                padding: 5px;
+            }
+            .players__details {
+                font-size: 0.9rem;
+                text-align: center;
+            }
+        }
+        .players__grid--arquero {
+            background-image: $arqueros;
+        }
+        .players__grid--defensa {
+            background-image: $defensores;
+        }
+        .players__grid--medio {
+            background-image: $mediocentro;
+        }
+        .players__grid--delanteros {
+            background-image: $delanteros;
+        }
+        .players__cards--dt {
+            justify-content: center;
+        }
+        .players__grid--tecnico {
+            background-image: $tecnico;
+            padding: 10px;
+            border-radius: 50px;
+            box-shadow: $box-shadow-players;
+            margin-bottom: 50px;
         }
     }
 }

@@ -357,26 +357,28 @@
 
 @media screen and (max-width:500px) {
     #players {
-        h2 {
+        .players__posicion {
             font-size: 1.1rem;
         }
-        div {
+        .players__grid {
             img {
                 width: 160px;
             }
-            .player-name {
+            .players__name {
                 font-size: 1rem;
             }
         
-            .player-details {
+            .players__details {
                 font-size: 0.8rem;
             }
-            .country {
-                img {
-                    width: 50px;
-                    height: 50px;
-                    margin-bottom: -16px;
-                    margin-top: -17px;
+            .players__country {
+                .players__details {
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin-bottom: -16px;
+                        margin-top: -17px;
+                    }
                 }
             }
         }
