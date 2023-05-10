@@ -52,6 +52,10 @@ header ul .nav-link {
 
 .navbar-toggler {
   border: none; }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 4px 4px 4px black; }
 
 .navbar-nav {
   align-items: center; }
