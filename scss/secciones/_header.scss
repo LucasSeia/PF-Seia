@@ -1,5 +1,5 @@
 header {
-    img {
+    .escudo {
         width: 70px;
         height: 70px;
         animation-name: logo;
@@ -21,6 +21,12 @@ header {
     }
     .fondo {
         background-color: $rojo !important;
+    }
+    button {
+        .icono {
+            width: 64px;
+            height: 64px;
+        }
     }
     ul {
         .nav-link {
