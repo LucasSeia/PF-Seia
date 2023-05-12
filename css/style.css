@@ -18,6 +18,11 @@ header .escudo {
     transform: scale(1.1, 1.1);
     transition: 1s; }
 
+header .navbar-toggler .icono {
+  width: 64px;
+  height: 64px;
+  margin: -20px; }
+
 @keyframes logo {
   0% {
     transform: scale(0); }
@@ -26,10 +31,6 @@ header .escudo {
 
 header .fondo {
   background-color: #c70101 !important; }
-
-header button .icono {
-  width: 64px;
-  height: 64px; }
 
 header ul .nav-link {
   font-size: 1.1rem;
@@ -57,6 +58,8 @@ header ul .nav-link {
 .navbar-toggler {
   border: none; }
   .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
     box-shadow: none; }
 
 .navbar-nav {
