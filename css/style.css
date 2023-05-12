@@ -659,15 +659,13 @@ footer {
         font-size: 0.8rem; } }
 
 @media screen and (max-width: 500px) {
-  #players .players__posicion {
-    font-size: 1.1rem; }
-  #players .players__grid img {
+  .players .players__grid img {
     width: 160px; }
-  #players .players__grid .players__name {
+  .players .players__grid .players__name {
     font-size: 1rem; }
-  #players .players__grid .players__details {
+  .players .players__grid .players__details {
     font-size: 0.8rem; }
-  #players .players__grid .players__country .players__details img {
+  .players .players__grid .players__country .players__details img {
     width: 50px;
     height: 50px;
     margin-bottom: -16px;
@@ -735,8 +733,10 @@ footer {
     font-size: 1.6rem; }
   #premier-league h1 {
     font-size: 1.6rem; }
-  #players h1 {
+  .players h1 {
     font-size: 1.6rem; }
+  .players .players__posicion {
+    font-size: 1.4rem; }
   .contact-form h1 {
     font-size: 1.6rem; } }
 
@@ -747,8 +747,10 @@ footer {
     font-size: 1.4rem; }
   #premier-league h1 {
     font-size: 1.4rem; }
-  #players h1 {
+  .players h1 {
     font-size: 1.4rem; }
+  .players .players__posicion {
+    font-size: 1.2rem; }
   .contact-form h1 {
     font-size: 1.4rem; } }
 
@@ -759,8 +761,10 @@ footer {
     font-size: 1.2rem; }
   #premier-league h1 {
     font-size: 1.2rem; }
-  #players h1 {
+  .players h1 {
     font-size: 1.2rem; }
+  .players .players__posicion {
+    font-size: 1.1rem; }
   .contact-form h1 {
     font-size: 1.2rem; } }
 

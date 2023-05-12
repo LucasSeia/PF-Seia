@@ -356,10 +356,7 @@
 
 
 @media screen and (max-width:500px) {
-    #players {
-        .players__posicion {
-            font-size: 1.1rem;
-        }
+    .players {
         .players__grid {
             img {
                 width: 160px;
@@ -492,9 +489,12 @@
             font-size: 1.6rem;
         }
     }
-    #players {
+    .players {
         h1 {
             font-size: 1.6rem;
+        }
+        .players__posicion {
+            font-size: 1.4rem;
         }
     }
     .contact-form {
@@ -519,9 +519,12 @@
             font-size: 1.4rem;
         }
     }
-    #players {
+    .players {
         h1 {
             font-size: 1.4rem;
+        }
+        .players__posicion {
+            font-size: 1.2rem;
         }
     }
     .contact-form {
@@ -546,9 +549,12 @@
             font-size: 1.2rem;
         }
     }
-    #players {
+    .players {
         h1 {
             font-size: 1.2rem;
+        }
+        .players__posicion {
+            font-size: 1.1rem;
         }
     }
     .contact-form {
