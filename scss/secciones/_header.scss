@@ -1,21 +1,16 @@
-header {
-    .escudo {
-        width: 70px;
-        height: 70px;
-        animation-name: logo;
-        animation-duration: 4s;
-        animation-iteration-count: initial;
-        animation-direction: normal;
-        &:hover {
-            transform: scale(1.1,1.1);
-            transition: 1s;
-        }
-    }
-    .navbar-toggler {
-        .icono {
-            width: 64px;
-            height: 64px;
-            margin: -20px;
+.header {
+    .navbar-brand {
+        .escudo {
+            width: 70px;
+            height: 70px;
+            animation-name: logo;
+            animation-duration: 4s;
+            animation-iteration-count: initial;
+            animation-direction: normal;
+            &:hover {
+                transform: scale(1.1,1.1);
+                transition: 1s;
+            }
         }
     }
     @keyframes logo {
@@ -24,6 +19,13 @@ header {
         }
         100% {
             transform: scale(1,1);
+        }
+    }
+    .navbar-toggler {
+        .icono {
+            width: 64px;
+            height: 64px;
+            margin: -20px;
         }
     }
     .fondo {
