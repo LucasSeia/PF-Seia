@@ -4,9 +4,8 @@
             width: 70px;
             height: 70px;
             animation-name: logo;
-            animation-duration: 4s;
+            animation-duration: 2s;
             animation-iteration-count: initial;
-            animation-direction: normal;
             &:hover {
                 transform: scale(1.1,1.1);
                 transition: 1s;
@@ -26,6 +25,10 @@
             width: 64px;
             height: 64px;
             margin: -20px;
+            &:active {
+                transform: rotate(180deg);
+                transition: 1s;
+            }
         }
     }
     .fondo {

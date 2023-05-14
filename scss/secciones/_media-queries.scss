@@ -201,8 +201,8 @@
             font-size: 1.3rem;
         }
         table {
-            font-size: 0.8rem;
-            width: 60%;
+            font-size: 0.9rem;
+            width: 70%;
             tr {
                 .club {
                     width: 80px;
@@ -219,21 +219,12 @@
                         padding-bottom: 2px;
                         padding-left: 2px;
                     }
-                    b {
-                        font-size: 0.8rem;
-                    }
                 }
-                .centrado {
-                    font-size: 0.9rem;
-                }
-            }
-            .cp1, .cp3, .cp4, .ds1 {
-                font-size: 0.8rem;
             }
         }
     }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
     #premier-league {
         padding-bottom: 40px;
         h1 {
@@ -243,8 +234,8 @@
             font-size: 1.3rem;
         }
         table {
-            font-size: 0.8rem;
-            width: 70%;
+            font-size: 0.9rem;
+            width: 80%;
             tr {
                 .club {
                     width: 80px;
@@ -262,15 +253,15 @@
                         padding-left: 2px;
                     }
                     b {
-                        font-size: 0.8rem;
+                        font-size: 0.9rem;
                     }
                 }
                 .centrado {
-                    font-size: 0.9rem;
+                    font-size: 1rem;
                 }
             }
             .cp1, .cp3, .cp4, .ds1 {
-                font-size: 0.8rem;
+                font-size: 0.9rem;
             }
         }
     }
@@ -282,8 +273,8 @@
             margin-bottom: 20px;
         }
         table {
-            font-size: 0.7rem;
-            width: 70%;
+            font-size: 0.8rem;
+            width: 85%;
             tr {
                 .club {
                     width: 80px;
@@ -301,15 +292,15 @@
                         padding-left: 2px;
                     }
                     b {
-                        font-size: 0.7rem;
+                        font-size: 0.8rem;
                     }
                 }
                 .centrado {
-                    font-size: 0.8rem;
+                    font-size: 0.9rem;
                 }
             }
             .cp1, .cp3, .cp4, .ds1 {
-                font-size: 0.7rem;
+                font-size: 0.8rem;
             }
         }
     }

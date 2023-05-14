@@ -11,9 +11,8 @@ body {
   width: 70px;
   height: 70px;
   animation-name: logo;
-  animation-duration: 4s;
-  animation-iteration-count: initial;
-  animation-direction: normal; }
+  animation-duration: 2s;
+  animation-iteration-count: initial; }
   .header .navbar-brand .escudo:hover {
     transform: scale(1.1, 1.1);
     transition: 1s; }
@@ -28,6 +27,9 @@ body {
   width: 64px;
   height: 64px;
   margin: -20px; }
+  .header .navbar-toggler .icono:active {
+    transform: rotate(180deg);
+    transition: 1s; }
 
 .header .fondo {
   background-color: #c70101 !important; }
@@ -566,8 +568,8 @@ footer {
     #premier-league h2 {
       font-size: 1.3rem; }
     #premier-league table {
-      font-size: 0.8rem;
-      width: 60%; }
+      font-size: 0.9rem;
+      width: 70%; }
       #premier-league table tr .club {
         width: 80px; }
       #premier-league table tr .estadisticas {
@@ -576,15 +578,9 @@ footer {
         width: 20px;
         height: 20px;
         padding-bottom: 2px;
-        padding-left: 2px; }
-      #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
-        font-size: 0.8rem; }
-      #premier-league table .gris-claro .centrado, #premier-league table .gris-oscuro .centrado {
-        font-size: 0.9rem; }
-      #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1 {
-        font-size: 0.8rem; } }
+        padding-left: 2px; } }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   #premier-league {
     padding-bottom: 40px; }
     #premier-league h1 {
@@ -592,8 +588,32 @@ footer {
     #premier-league h2 {
       font-size: 1.3rem; }
     #premier-league table {
+      font-size: 0.9rem;
+      width: 80%; }
+      #premier-league table tr .club {
+        width: 80px; }
+      #premier-league table tr .estadisticas {
+        width: 20px; }
+      #premier-league table .gris-claro .left .shield, #premier-league table .gris-oscuro .left .shield {
+        width: 18px;
+        height: 18px;
+        padding-bottom: 2px;
+        padding-left: 2px; }
+      #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
+        font-size: 0.9rem; }
+      #premier-league table .gris-claro .centrado, #premier-league table .gris-oscuro .centrado {
+        font-size: 1rem; }
+      #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1 {
+        font-size: 0.9rem; } }
+
+@media screen and (max-width: 630px) {
+  #premier-league {
+    padding-bottom: 40px; }
+    #premier-league h1 {
+      margin-bottom: 20px; }
+    #premier-league table {
       font-size: 0.8rem;
-      width: 70%; }
+      width: 85%; }
       #premier-league table tr .club {
         width: 80px; }
       #premier-league table tr .estadisticas {
@@ -609,30 +629,6 @@ footer {
         font-size: 0.9rem; }
       #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1 {
         font-size: 0.8rem; } }
-
-@media screen and (max-width: 630px) {
-  #premier-league {
-    padding-bottom: 40px; }
-    #premier-league h1 {
-      margin-bottom: 20px; }
-    #premier-league table {
-      font-size: 0.7rem;
-      width: 70%; }
-      #premier-league table tr .club {
-        width: 80px; }
-      #premier-league table tr .estadisticas {
-        width: 20px; }
-      #premier-league table .gris-claro .left .shield, #premier-league table .gris-oscuro .left .shield {
-        width: 18px;
-        height: 18px;
-        padding-bottom: 2px;
-        padding-left: 2px; }
-      #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
-        font-size: 0.7rem; }
-      #premier-league table .gris-claro .centrado, #premier-league table .gris-oscuro .centrado {
-        font-size: 0.8rem; }
-      #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1 {
-        font-size: 0.7rem; } }
 
 @media screen and (max-width: 575px) {
   #premier-league {
