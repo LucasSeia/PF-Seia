@@ -252,22 +252,24 @@ body {
         background-color: #ff0033;
         color: #fff;
         text-align: center; }
+    #premier-league table .campeon {
+      background-color: #D4AF37; }
     #premier-league table .gris-claro {
       background-color: #e5e5e5; }
     #premier-league table .gris-oscuro {
       background-color: #ccbebe; }
-    #premier-league table .gris-claro td, #premier-league table .gris-oscuro td {
+    #premier-league table .campeon td, #premier-league table .gris-claro td, #premier-league table .gris-oscuro td {
       text-align: center; }
-    #premier-league table .gris-claro .left, #premier-league table .gris-oscuro .left {
+    #premier-league table .campeon .left, #premier-league table .gris-claro .left, #premier-league table .gris-oscuro .left {
       text-align: left; }
-      #premier-league table .gris-claro .left .shield, #premier-league table .gris-oscuro .left .shield {
+      #premier-league table .campeon .left .shield, #premier-league table .gris-claro .left .shield, #premier-league table .gris-oscuro .left .shield {
         width: 25px;
         height: 25px;
         padding-bottom: 5px;
         padding-left: 5px; }
-      #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
+      #premier-league table .campeon .left b, #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
         font-size: 0.9rem; }
-    #premier-league table .gris-claro .centrado, #premier-league table .gris-oscuro .centrado {
+    #premier-league table .campeon .centrado, #premier-league table .gris-claro .centrado, #premier-league table .gris-oscuro .centrado {
       text-align: center;
       font-weight: 700;
       font-size: 1rem; }
@@ -285,6 +287,10 @@ body {
       font-size: 1rem; }
     #premier-league table .ds1 {
       background: #ff0033;
+      color: #fff;
+      font-size: 1rem; }
+    #premier-league table .ds2 {
+      background: #D4AF37;
       color: #fff;
       font-size: 1rem; }
 
@@ -594,16 +600,16 @@ footer {
         width: 80px; }
       #premier-league table tr .estadisticas {
         width: 20px; }
-      #premier-league table .gris-claro .left .shield, #premier-league table .gris-oscuro .left .shield {
+      #premier-league table .campeon .left .shield, #premier-league table .gris-claro .left .shield, #premier-league table .gris-oscuro .left .shield {
         width: 18px;
         height: 18px;
         padding-bottom: 2px;
         padding-left: 2px; }
-      #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
+      #premier-league table .campeon .left b, #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
         font-size: 0.9rem; }
-      #premier-league table .gris-claro .centrado, #premier-league table .gris-oscuro .centrado {
+      #premier-league table .campeon .centrado, #premier-league table .gris-claro .centrado, #premier-league table .gris-oscuro .centrado {
         font-size: 1rem; }
-      #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1 {
+      #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1, #premier-league table .ds2 {
         font-size: 0.9rem; } }
 
 @media screen and (max-width: 630px) {
@@ -618,16 +624,16 @@ footer {
         width: 80px; }
       #premier-league table tr .estadisticas {
         width: 20px; }
-      #premier-league table .gris-claro .left .shield, #premier-league table .gris-oscuro .left .shield {
+      #premier-league table .campeon .left .shield, #premier-league table .gris-claro .left .shield, #premier-league table .gris-oscuro .left .shield {
         width: 18px;
         height: 18px;
         padding-bottom: 2px;
         padding-left: 2px; }
-      #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
+      #premier-league table .campeon .left b, #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
         font-size: 0.8rem; }
-      #premier-league table .gris-claro .centrado, #premier-league table .gris-oscuro .centrado {
+      #premier-league table .campeon .centrado, #premier-league table .gris-claro .centrado, #premier-league table .gris-oscuro .centrado {
         font-size: 0.9rem; }
-      #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1 {
+      #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1, #premier-league table .ds2 {
         font-size: 0.8rem; } }
 
 @media screen and (max-width: 575px) {
@@ -642,14 +648,14 @@ footer {
         width: 80px; }
       #premier-league table tr .estadisticas {
         width: 20px; }
-      #premier-league table .gris-claro .left .shield, #premier-league table .gris-oscuro .left .shield {
+      #premier-league table .campeon .left .shield, #premier-league table .gris-claro .left .shield, #premier-league table .gris-oscuro .left .shield {
         width: 18px;
         height: 18px;
         padding-bottom: 2px;
         padding-left: 2px; }
-      #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
+      #premier-league table .campeon .left b, #premier-league table .gris-claro .left b, #premier-league table .gris-oscuro .left b {
         font-size: 0.7rem; }
-      #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1 {
+      #premier-league table .cp1, #premier-league table .cp3, #premier-league table .cp4, #premier-league table .ds1, #premier-league table .ds2 {
         font-size: 0.7rem; }
       #premier-league table .centrado {
         font-size: 0.8rem; } }

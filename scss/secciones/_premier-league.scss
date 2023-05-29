@@ -45,13 +45,16 @@
                 @include premier ($descenso);
             }
         }
+        .campeon {
+            background-color: $junio;
+        }
         .gris-claro {
             background-color: $gris-claro;
         }
         .gris-oscuro {
             background-color: $gris-oscuro;
         }
-        .gris-claro, .gris-oscuro {
+        .campeon, .gris-claro, .gris-oscuro {
             td {
                 text-align: center;
             }
@@ -84,6 +87,11 @@
         }
         .ds1 {
             @include competiciones ($descenso);
+        }
+        .ds2 {
+            background: $junio;
+            color: $blanco;
+            font-size: 1rem;
         }
     }
 }
